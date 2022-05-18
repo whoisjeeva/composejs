@@ -1,0 +1,9 @@
+.compose-column, .compose-row, .compose-box {
+    display: flex;
+    flex-shrink: 0;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.compose-column { flex-direction: column; }
+.compose-row { flex-direction: row; }
